@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#969696"
+    android:gravity="center_horizontal">
+
+
+    <com.hsw.slidelockview.SlideVerLockView
+        android:id="@+id/slide_ver"
+        android:layout_width="80dp"
+        android:layout_height="180dp"/>
+
+
+    <com.hsw.slidelockview.SlideHorLockView
+        android:id="@+id/slide_hor"
+        android:layout_marginTop="100dp"
+        android:layout_width="280dp"
+        android:layout_height="80dp"/>
+
+
+</LinearLayout>
